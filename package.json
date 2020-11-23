@@ -12,6 +12,7 @@
     "node": "13.x"
   },
   "author": "Jessica Tsai <jtsai123@terpmail.umd.edu>",
+  "license": "ISC",
   "dependencies": {
     "chalk": "^4.1.0",
     "express": "^4.17.1",
@@ -25,7 +26,6 @@
     "type": "git",
     "url": "git+https://github.com/jtsai7028/Hyattsville-WIP.git"
   },
-  "license": "ISC",
   "bugs": {
     "url": "https://github.com/jtsai7028/Hyattsville-WIP/issues"
   },
