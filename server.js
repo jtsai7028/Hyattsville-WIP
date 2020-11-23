@@ -9,7 +9,7 @@ app.use(express.json());
 app.use(express.static('pages'));
 
 app.route('/index')
-  .get("*", (req, res) => {
+  .get((req, res) => {
     console.log('GET request detected');
     res.sendFile(path.join(Hyattsville-WIP, "pages", "index.html"));
   });
