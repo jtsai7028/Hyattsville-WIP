@@ -7,10 +7,10 @@ app.use(express.urlencoded({ extended: true }));
 app.use(express.json());
 app.use(express.static('pages'));
 
-app.route('/api')
+app.route('/index')
   .get((req, res) => {
     console.log('GET request detected');
-    res.render('index', {});
+    // res.render('index', {});
     // res.send("working!!");
   });
   // .post((req, res) => {
