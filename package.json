@@ -5,7 +5,6 @@
   "main": "index.js",
   "type": "module",
   "scripts": {
-    "test": "node --experimental-modules lab_utils/html_validation_error_gen.js",
     "start": "nodemon server.js"
   },
   "engines": {
@@ -21,5 +20,9 @@
   },
   "devDependencies": {
     "html-validate": "^3.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jtsai7028/Hyattsville-WIP.git"
   }
 }
