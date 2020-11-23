@@ -19,7 +19,11 @@
     "recursive-readdir": "^2.2.2"
   },
   "devDependencies": {
-    "html-validate": "^3.0.0"
+    "html-validate": "^3.0.0",
+    "eslint": "^7.4.0",
+    "eslint-config-airbnb-base": "^14.2.0",
+    "eslint-plugin-cypress": "^2.11.1",
+    "eslint-plugin-import": "^2.22.0"
   },
   "repository": {
     "type": "git",
