@@ -11,7 +11,7 @@ app.use(express.static('pages'));
 app.route('/index')
   .get((req, res) => {
     console.log('GET request detected');
-    res.sendFile(path.join(Hyattsville-WIP, "pages", "index.html"));
+    res.sendFile(path.resolve("Hyattsville-WIP", "pages", "index.html"));
   });
 
 app.listen(port, () => {
