@@ -7,7 +7,7 @@ app.use(express.urlencoded({ extended: true }));
 app.use(express.json());
 app.use(express.static('pages'));
 
-app.route('/')
+app.route('/api')
   .get((req, res) => {
     console.log('GET request detected');
     // res.render('index', {});
