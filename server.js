@@ -10,8 +10,6 @@ app.use(express.static('pages'));
 app.route('/api')
   .get((req, res) => {
     console.log('GET request detected');
-    // res.render('index', {});
-    // res.send("working!!");
   })
   .post((req, res) => {
     console.log('POST request detected');
