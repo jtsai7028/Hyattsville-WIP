@@ -1,4 +1,7 @@
 import express from 'express';
+import dotenv from 'dotenv';
+
+dotenv.config();
 
 const app = express();
 const port = process.env.PORT || 3000;
@@ -12,10 +15,11 @@ app.route('/api')
     console.log('GET request detected');
     // res.render('index', {});
     // res.send("working!!");
+  })
+  .post((req, res) => {
+    console.log('POST request detected');
+    console.log('Form data in req.body', req.body);
   });
-  // .post((req, res) => {
-  //   console.log('POST request detected');
-  //   console.log('Form data in req.body', req.body);});
 
 app.listen(port, () => {
   console.log(`Example app listening on port ${port}!`);
