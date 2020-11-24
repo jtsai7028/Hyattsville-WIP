@@ -7,14 +7,10 @@ app.use(express.urlencoded({ extended: true }));
 app.use(express.json());
 app.use(express.static('pages'));
 
-app.route('/api')
+app.route('/index')
   .get((req, res) => {
     console.log('GET request detected');
     // res.send("wwwwooooorrrrrkkkkkkssssss"); //test with curl localhost:3000/api
-  })
-  .post((req, res) => {
-    console.log('POST request detected');
-    console.log('Form data in req.body', req.body);
   });
 
 app.listen(port, () => {
