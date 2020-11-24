@@ -5,7 +5,7 @@ const port = process.env.PORT || 3000;
 
 app.use(express.urlencoded({ extended: true }));
 app.use(express.json());
-app.use(express.static('pages'));
+app.use(express.static('content'));
 
 app.route('/index')
   .get((req, res) => {
