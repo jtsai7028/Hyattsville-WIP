@@ -57,5 +57,7 @@ h1 {
 }
 
 .proj_intro {
+  width: 50em;
+  margin: 0 auto 0;
   text-align: center;
 }
