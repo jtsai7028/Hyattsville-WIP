@@ -2,7 +2,6 @@ nav {
   height: 50px;
   flex: 100%;
   display: flex;
-  /* align-items: baseline; */
 }
 
 nav ul {
@@ -15,14 +14,11 @@ nav ul {
   list-style-type: none;
   flex: 2;
   display: flex;
-  /* align-items: baseline; */
 }
 
 nav li {
-  display: inline;
   text-align: center;
   flex: 1;
-  /* align-items: baseline; */
 }
 
 a:link, a:visited {
@@ -36,7 +32,7 @@ a:link, a:visited {
 }
 
 .proj_name {
-  font-size: 18px;
+  font-size: 16px;
 }
 
 .wrapper {
