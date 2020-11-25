@@ -70,6 +70,10 @@ h1 {
   text-align: center;
 }
 
+.footer {
+  margin-top: 10px;
+}
+
 /* James' Map CSS */
 .code {
   background-color: rgb(255, 231, 202);
