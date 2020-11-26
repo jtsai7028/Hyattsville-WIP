@@ -72,6 +72,14 @@ h1 {
 
 .footer {
   margin-top: 10px;
+  display: flex;
+}
+
+.footer > a:link, .footer > a:visited {
+  color: "black";
+  text-decoration: none;
+  display: flex;
+  align-content: center;
 }
 
 /* James' Map CSS */
@@ -117,7 +125,7 @@ h1 {
   top: 1px;
 }
 
-#mapid{
+#mapid {
   height:480px;
   width: 640px;
   border-radius: 15px;
