@@ -57,17 +57,24 @@ h1 {
   line-height: 1.2
 }
 
+.proj_intro {
+  width: 50em;
+  margin: 0 auto 0;
+  text-align: center;
+}
+
+blockquote {
+  width: 77em;
+  margin-left: -18em;
+  text-align: center;
+  font-size: 18px;
+}
+
 .homepic {
   display: block;
   margin-left: auto;
   margin-right: auto;
   width: 50%;
-}
-
-.proj_intro {
-  width: 50em;
-  margin: 0 auto 0;
-  text-align: center;
 }
 
 .footer {
