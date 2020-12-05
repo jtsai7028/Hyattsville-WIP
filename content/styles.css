@@ -35,20 +35,21 @@ a:link, a:visited {
   font-size: 16px;
 }
 
-.wrapper {
+.container {
   display: flex;
-  align-items: center;
   flex-direction: column;
   padding: 4px 35px;
+  align-items: center;
+  justify-content: center;
 }
 
 body {
-    font-family: 'Raleway';
-    font-style: normal;
-    font-weight: 400;
-    color: #000;
-    font-size: .8em;
-    line-height: 1.5;
+  font-family: 'Raleway';
+  font-style: normal;
+  font-weight: 400;
+  color: #000;
+  font-size: .8em;
+  line-height: 1.5;
 }
 
 h1 {
@@ -64,8 +65,8 @@ h1 {
 }
 
 blockquote {
-  width: 77em;
-  margin-left: -18em;
+  width: 61em;
+  margin-left: -12em;
   text-align: center;
   font-size: 18px;
 }
@@ -75,6 +76,11 @@ blockquote {
   margin-left: auto;
   margin-right: auto;
   width: 50%;
+}
+
+.description, .definitions {
+  width: 61em;
+  margin: 0 auto 0;
 }
 
 .footer {
@@ -103,7 +109,7 @@ blockquote {
   flex: 0 0 200px;
   padding: 10px;
   overflow-wrap: break-word;
-  margin: 25px 50px;
+  margin: 25px 60px;
 }
 
 .activate {
