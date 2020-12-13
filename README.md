@@ -37,7 +37,7 @@ If your page is running nicely on localhost but will not be displayed on Heroku:
 2. If you have edited the name of the folder holding your files (here, the folder name is "content"), make sure that change is reflected in "server.js" "app.use(express.static('content'));".  There is a strange bug with Heroku so that if you name the folder "pages", it will be unable to read your files.  To be safe, you can name the folder "content" or "public".
 
 ## How the Application Works
-The structure of each page is written in a separate HTML file.  The infographics are embedded as image files on each page.  The pages also import a CSS stylesheet for basic formatting and text decoration.  Using server.js and Node.js, Heroku and localhost are able to run the code to simulate a live website.
+The structure of each page is written in a separate HTML file.  The infographics are embedded as image files on each page.  The pages also import a CSS stylesheet for basic formatting and text decoration.  Using server.js (written in JavaScript) and Node.js, Heroku and localhost are able to run the code to simulate a live website.  The map of Hyattsville was created by James Nicol using JavaScript map elements.
 
 ## Further Communication
 Contact Jessica Tsai at <jtsai123@terpmail.umd.edu> for any other questions concerning this repository.
