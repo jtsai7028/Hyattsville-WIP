@@ -17,7 +17,7 @@ To run locally after cloning the repository:
  - Run <code>npm start</code> to start the server
  - In your browser, type in <code>localhost:3000</code> in the address bar.  The page should then look like the website as seen on Heroku
 
-However, you likely will not be able to update this repository.  This repository will not be updated by the current team, so you are encouraged to copy the code from this to your own GitHub.
+However, you likely will not be able to update this repository, until ownership is transferred.  This repository will not be updated by the current team, so you are encouraged to copy the code from this to your own GitHub or contact the owner (see below).
 
 ### Heroku
 Heroku is a platform used by this repository to serve the website.  If you would like to continue this set-up with your own GitHub repository, you need to first register for a [Heroku account](https://www.heroku.com/).  Following the site instructions, allow Heroku to access your GitHub repository.
